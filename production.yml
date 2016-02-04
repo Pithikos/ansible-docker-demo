@@ -1,0 +1,5 @@
+- name: Get the development environment up
+  hosts: production
+  tasks:
+
+    - include: tasks/provision.yml

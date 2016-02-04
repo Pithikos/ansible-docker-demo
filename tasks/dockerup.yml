@@ -1,0 +1,8 @@
+- name: Get up a container for the main app
+  docker:
+    name: "myapp"
+    image: centos:7
+    state: running
+    net: host
+    expose: 8000
+    command: python -m "SimpleHTTPServer"

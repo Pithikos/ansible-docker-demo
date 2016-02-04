@@ -1,0 +1,6 @@
+- name: Get the development environment up
+  hosts: local
+  tasks:
+    - include: tasks/dockerup.yml
+    - include: tasks/provision.yml
+      delegate_to: myapp

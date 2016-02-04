@@ -1,0 +1,5 @@
+- name: Add extra package repositories
+  yum: name=epel-release state=installed
+
+- name: Install pip
+  yum: name=python-pip state=installed

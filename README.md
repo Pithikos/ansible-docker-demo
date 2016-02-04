@@ -4,6 +4,8 @@ Ansible - Docker demo
 Prerequisites
 ---------------
 
+If you don't have Docker installed, follow the [instructions here](https://docs.docker.com/engine/installation) to install it.
+
 Install Ansible on Ubuntu
 
     sudo apt-get install software-properties-common -y

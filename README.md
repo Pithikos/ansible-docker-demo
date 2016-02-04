@@ -28,4 +28,4 @@ Deploy to production
 
     ansible-playbook production.yml
 
-(you should edit the production server in hosts for this to work)
+(you should edit the production server in the *hosts* file for this to work)

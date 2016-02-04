@@ -13,7 +13,7 @@ Install Ansible on Ubuntu
     sudo apt-get update
     sudo apt-get install ansible -y
 
-Install docker-py
+Install docker-py (assuming you have pip installed)
 
     pip install docker-py
 
